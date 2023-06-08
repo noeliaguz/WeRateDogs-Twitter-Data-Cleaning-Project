@@ -2,8 +2,7 @@
 The focus of this project was to use Python Pandas and other libraries to perform data wrangling. Data was gathered from a variety of sources and in a variety of formats, its quality and tidiness were assessed, then the data was cleaned. Interesting and trustworthy analyses and visualizations were then created to provide insights about the data.
 
 
-## Project Overview
-*Provided by Udacity*  
+## Project Overview 
 
 The dataset that was wrangled (and analyzed and visualized) was the tweet archive of Twitter user [@dog_rates](https://twitter.com/dog_rates), also known as [WeRateDogs](https://en.wikipedia.org/wiki/WeRateDogs). WeRateDogs is a Twitter account that rates people's dogs with a humorous comment about the dog. These ratings almost always have a denominator of 10. The numerators, though? Almost always greater than 10. 11/10, 12/10, 13/10, etc. WeRateDogs has over 4 million followers and has received international media coverage.
 
@@ -18,7 +17,7 @@ WeRateDogs downloaded their Twitter archive and sent it to Udacity for use in th
 
 
 ## Project Data
-*Provided by Udacity*  
+  
 
 ### Enhanced Twitter Archive
 
@@ -46,5 +45,15 @@ So for the last row in that table:
 - **p2_dog** is whether or not the #2 prediction is a breed of dog → TRUE
 - etc.
 
+## Assessing the Data
+After collecting the data, it was loaded into a Pandas dataframe and assessed programatically and visually to identify issues with the data regarding:  
+- Quality 
+- Tidiness  
 
+## Cleaning the Data
+Once the quality and tidiness issues were addressed, steps were taken to clean the data. These steps are futher outlined in the Notebook file. Once the issues were resolved, the cleaned data was then stored as a CSV file.
+
+  
+## Analyzing the Data
+Using the cleaned data, some preliminary analysis was performed to begin gaining insights about the data.
 
